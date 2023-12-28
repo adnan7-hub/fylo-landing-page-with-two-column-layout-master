@@ -16,13 +16,13 @@ a {
     --Light-Grayish-Blue: hsl(240, 75%, 98%);
     --Light-Gray: hsl(0, 0%, 75%);
 }
-.header {
+header {
     margin-bottom: 70px;
 }
-.header img {
+header img {
     width: 120px;
 }
-.header ul li a {
+header ul li a {
     padding: 0 30px;
     color: black;
 }
@@ -247,18 +247,18 @@ form input[type="submit"] {
 }
 /* end-access */
 /* start-footer */
-.footer {
+footer {
     padding-top: 80px!important;
     background-color: var(--very-dark-blue);
     font-family: 'Open Sans', sans-serif;
 }
-.footer img {
+footer img {
     width: 130px;
 }
-.footer .mail-phone ul li a span {
+footer .mail-phone ul li a span {
     font-size: 14px;
 }
-.footer .social-media li a i {
+footer .social-media li a i {
     width: 30px;
     height: 30px;
     display: flex;
@@ -271,7 +271,7 @@ form input[type="submit"] {
     font-size: 13px;
 }
 @media(max-width:767px) {
-    .footer img {
+    footer img {
         margin-left: 20px;
     }
     .mail-phone ,
