@@ -85,10 +85,10 @@ header ul li a {
     border-radius: 4px;
 }
 @media (max-width: 767px) {
-    .header img {
+    header img {
         width: 90px;
     }
-    .header ul li a {
+    header ul li a {
         padding: 0 13px;
         font-size: 13px;
     }
